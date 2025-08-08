@@ -1,3 +1,82 @@
 {
-  "data": []
+    "data": [
+        {
+            "id": 1,
+            "title": "EBD Lição 1 | O CAÇADOR DE CRISTÃOS",
+            "videoUrl": "https://www.youtube.com/embed/i2NKW6a93Qg",
+            "exhibitionDate": "2025-06-29T10:45:00"
+        },
+        {
+            "id": 2,
+            "title": "EBD Lição 2 | DE PERSEGUIDOR A MISSIONÁRIO",
+            "videoUrl": "https://www.youtube.com/embed/xRcxTTbcpyI",
+            "exhibitionDate": "2025-07-06T10:45:00"
+        },
+        {
+            "id": 3,
+            "title": "EBD Lição 3 | PAULO EM SUA PRIMEIRA VIAGEM MISSIONÁRIA",
+            "videoUrl": "https://www.youtube.com/embed/QLFuCrrXJp8",
+            "exhibitionDate": "2025-07-13T10:45:00"
+        },
+        {
+            "id": 4,
+            "title": "EBD Lição 4 | UM MÁGICO ENGANADOR É DESMASCARADO",
+            "videoUrl": "https://www.youtube.com/embed/y-gDz-AQGHU",
+            "exhibitionDate": "2025-07-20T10:45:00"
+        },
+        {
+            "id": 5,
+            "title": "EBD Lição 5 | \"DEUSES\" OU MISSIONÁRIOS?",
+            "videoUrl": "https://www.youtube.com/embed/wks5w8GZeP4",
+            "exhibitionDate": "2025-07-27T10:45:00"
+        },
+        {
+            "id": 6,
+            "title": "EBD Lição 6 | AMIZADES MISSIONÁRIAS",
+            "videoUrl": "https://www.youtube.com/embed/HD6AFXyZBgE",
+            "exhibitionDate": "2025-08-03T10:45:00"
+        },
+        {
+            "id": 7,
+            "title": "EBD Lição 7 | MUDANÇA DE PLANOS",
+            "videoUrl": "https://www.youtube.com/embed/dOoAX4yvNEk",
+            "exhibitionDate": "2025-08-10T10:45:00"
+        },
+        {
+            "id": 8,
+            "title": "EBD Lição 8 | ORAÇÃO E LOUVOR CAUSAM GRANDE TREMOR",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-08-17T10:45:00"
+        },
+        {
+            "id": 9,
+            "title": "EBD Lição 9 | A GRANDE RECOMPENSA DOS MISSIONÁRIOS",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-08-24T10:45:00"
+        },
+        {
+            "id": 10,
+            "title": "EBD Lição 10 | OS FALSOS MISSIONÁRIOS",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-08-31T10:45:00"
+        },
+        {
+            "id": 11,
+            "title": "EBD Lição 11 | A RESSURREIÇÃO DURANTE A PREGAÇÃO",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-09-07T10:45:00"
+        },
+        {
+            "id": 12,
+            "title": "EBD Lição 12 | PAULO EVANGELIZA UM REI",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-09-14T10:45:00"
+        },
+        {
+            "id": 13,
+            "title": "EBD Lição 13 | FÉ EM MEIO ÀS TEMPESTADES",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-09-21T10:45:00"
+        }
+    ]
 }
