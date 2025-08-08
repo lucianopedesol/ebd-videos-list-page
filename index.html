@@ -22,7 +22,7 @@
         .main-title {
             font-size: 2.25rem; /* text-4xl */
             font-weight: 700; /* font-bold */
-            color: #1f2937; /* text-gray-800 */
+            color: #0e7490; /* text-gray-800 */
             margin-bottom: 2rem; /* mb-8 */
             text-align: center;
         }
@@ -165,7 +165,7 @@
 </head>
 <body>
     <div class="main-container">
-        <h1 class="main-title">Coleção de Vídeos</h1>
+        <h1 class="main-title">Playlist</h1>
         <div id="video-cards-container" class="video-grid">
             <!-- Cards serão inseridos aqui pelo JavaScript -->
         </div>
@@ -191,7 +191,7 @@
         async function loadVideos() {
             const container = document.getElementById('video-cards-container');
             // URL da API com o parâmetro de listagem
-            const apiUrl = `https://lucianopedesol.github.io/ebd-videos-list-page/data/primarios/primeiro-trimestre.json`;
+            const apiUrl = `https://lucianopedesol.github.io/ebd-videos-list-page/data/2025/terceiro-trimestre/jovens.json`;
 
             fetch(apiUrl)
            .then(response => response.json())
