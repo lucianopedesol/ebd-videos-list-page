@@ -1,3 +1,82 @@
 {
-  "data": []
+    "data": [
+        {
+            "id": 1,
+            "title": "EBD Lição 1 | A PROMESSA DO DERRAMAMENTO DO ESPÍRITO SANTO",
+            "videoUrl": "https://www.youtube.com/embed/sCOrSoqdkB0",
+            "exhibitionDate": "2025-06-29T09:00:00"
+        },
+        {
+            "id": 2,
+            "title": "EBD LIÇÃO 02 | O PODER DO ALTO NO DIA DE PENTECOSTES",
+            "videoUrl": "https://www.youtube.com/embed/A2LB5ziNJgU",
+            "exhibitionDate": "2025-07-06T09:00:00"
+        },
+        {
+            "id": 3,
+            "title": "EBD LIÇÃO 3 | O PODER DO ESPÍRITO NA VIDA DE PEDRO E JOÃO",
+            "videoUrl": "https://www.youtube.com/embed/nTCrD4hmXos",
+            "exhibitionDate": "2025-07-13T09:00:00"
+        },
+        {
+            "id": 4,
+            "title": "EBD LIÇÃO 04 | O ESPÍRITO SANTO NA VIDA DE PAULO",
+            "videoUrl": "https://www.youtube.com/embed/t57QkNM76Pw",
+            "exhibitionDate": "2025-07-20T09:00:00"
+        },
+        {
+            "id": 5,
+            "title": "EBD Lição 5 | O MOVER DO ESPÍRITO NA CASA DE CORNÉLIO",
+            "videoUrl": "https://www.youtube.com/embed/5cv7DpLXN8U",
+            "exhibitionDate": "2025-07-27T09:00:00"
+        },
+        {
+            "id": 6,
+            "title": "EBD Lição 6 | O EVANGELHO EM ÉFESO E O REVESTIMENTO DO PODER",
+            "videoUrl": "https://www.youtube.com/embed/YiujqdyoRDY",
+            "exhibitionDate": "2025-08-03T09:00:00"
+        },
+        {
+            "id": 7,
+            "title": "EBD Lição 7 | AS LÍNGUAS ESTRANHAS COMO EVIDÊNCIA DO BATISMO",
+            "videoUrl": "https://www.youtube.com/embed/M9SUCH02cOw",
+            "exhibitionDate": "2025-08-10T09:00:00"
+        },
+        {
+            "id": 8,
+            "title": "EBD Lição 8 | O DOM DE INTERPRETAR AS LÍNGUAS",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-08-17T09:00:00"
+        },
+        {
+            "id": 9,
+            "title": "EBD Lição 9 | O EXERCÍCIO DOS DONS ESPIRITUAIS",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-08-24T09:00:00"
+        },
+        {
+            "id": 10,
+            "title": "EBD Lição 10 | O BATISMO NO ESPÍRITO E A SANTIFICAÇÃO DO CRENTE",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-08-31T09:00:00"
+        },
+        {
+            "id": 11,
+            "title": "EBD Lição 11 | O BATISMO NO ESPÍRITO E O TESTEMUNHO DA IGREJA",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-09-07T09:00:00"
+        },
+        {
+            "id": 12,
+            "title": "EBD Lição 12 | VIVENDO O AVIVAMENTO ESPIRITUAL",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-09-14T09:00:00"
+        },
+        {
+            "id": 13,
+            "title": "EBD Lição 13 | BUSCANDO O BATISMO NO ESPÍRITO SANTO",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-09-21T09:00:00"
+        }
+    ]
 }

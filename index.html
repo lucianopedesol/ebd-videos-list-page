@@ -210,8 +210,6 @@
             const container = document.getElementById('video-cards-container');
             const today = new Date();
 
-            videos.sort((a, b) => new Date(b.exhibitionDate) - new Date(a.exhibitionDate));
-
             videos.forEach(video => {
                 const card = document.createElement('div');
                 const videoDate = new Date(video.exhibitionDate);

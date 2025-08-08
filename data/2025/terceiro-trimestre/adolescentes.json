@@ -1,3 +1,82 @@
 {
-  "data": []
+    "data": [
+        {
+            "id": 1,
+            "title": "EBD Lição 1 | A IMPORTÂNCIA DA COMUNICAÇÃO",
+            "videoUrl": "https://www.youtube.com/embed/uJhkcRBraNY",
+            "exhibitionDate": "2025-06-29T09:00:00"
+        },
+        {
+            "id": 2,
+            "title": "EBD LIÇÃO 02 | HEBREUS, UMA CARTA SOBRE JESUS",
+            "videoUrl": "https://www.youtube.com/embed/ASsml-sW0VM",
+            "exhibitionDate": "2025-07-06T09:00:00"
+        },
+        {
+            "id": 3,
+            "title": "EBD LIÇÃO 3 | A PODEROSA MENSAGEM DA CARTA AOS HEBREUS (13 e14 anos) 3ºTrimestre 2025",
+            "videoUrl": "https://www.youtube.com/embed/yrnQ-C5C36g",
+            "exhibitionDate": "2025-07-13T09:00:00"
+        },
+        {
+            "id": 4,
+            "title": "EBD LIÇÃO 4 | A QUESTÃO DA FÉ NA CARTA AOS HEBREUS",
+            "videoUrl": "https://www.youtube.com/embed/tbvH_66-IdA",
+            "exhibitionDate": "2025-07-20T09:00:00"
+        },
+        {
+            "id": 5,
+            "title": "EBD Lição 5 | VAMOS CONHECER A CARTA DE TIAGO",
+            "videoUrl": "https://www.youtube.com/embed/Mm5iDFdA72M",
+            "exhibitionDate": "2025-07-27T09:00:00"
+        },
+        {
+            "id": 6,
+            "title": "EBD Lição 6 | APRENDENDO COM A CARTA DE TIAGO",
+            "videoUrl": "https://www.youtube.com/embed/VtKRSfdK6is",
+            "exhibitionDate": "2025-08-03T09:00:00"
+        },
+        {
+            "id": 7,
+            "title": "EBD Lição 7 | VAMOS CONHECER A 1ª CARTA DE PEDRO",
+            "videoUrl": "https://www.youtube.com/embed/D8XQrj61eOE",
+            "exhibitionDate": "2025-08-10T09:00:00"
+        },
+        {
+            "id": 8,
+            "title": "EBD Lição 8 | VAMOS APRENDER COM A 2ª CARTA DE PEDRO",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-08-17T09:00:00"
+        },
+        {
+            "id": 9,
+            "title": "EBD Lição 9 | VAMOS CONHECER A 1ª CARTA DE JOÃO",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-08-24T09:00:00"
+        },
+        {
+            "id": 10,
+            "title": "EBD Lição 10 | VAMOS CONHECER A 2ª CARTA DE JOÃO",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-08-31T09:00:00"
+        },
+        {
+            "id": 11,
+            "title": "EBD Lição 11 | VAMOS CONHECER A 3ª CARTA DE JOÃO",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-09-07T09:00:00"
+        },
+        {
+            "id": 12,
+            "title": "EBD Lição 12 | VAMOS CONHECER A CARTA DE JUDAS",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-09-14T09:00:00"
+        },
+        {
+            "id": 13,
+            "title": "EBD Lição 13 | VAMOS PRATICAR A PALAVRA!",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-09-21T09:00:00"
+        }
+    ]
 }
