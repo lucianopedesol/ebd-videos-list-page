@@ -1,0 +1,80 @@
+ [
+    {
+        id: 1,
+        title: 'Vídeo 1: Mensagem do Evangelho',
+        videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+        exhibitionDate: '2023-01-15T10:00:00'
+    },
+    {
+        id: 2,
+        title: 'Vídeo 2: A Verdade de Deus',
+        videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+        exhibitionDate: '2024-02-20T14:30:00'
+    },
+    {
+        id: 3,
+        title: 'Vídeo 3: O Mistério da Fé',
+        videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+        exhibitionDate: '2025-03-31T20:00:00'
+    },
+    {
+        id: 4,
+        title: 'Vídeo 4: Caminho Antigo',
+        videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+        exhibitionDate: '2025-04-15T11:00:00'
+    },
+    {
+        id: 5,
+        title: 'Vídeo 5: Testemunho de Fé',
+        videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+        exhibitionDate: '2025-11-20T09:00:00'
+    },
+    {
+        id: 6,
+        title: 'Vídeo 6: A Profecia Cumprida',
+        videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+        exhibitionDate: '2026-01-05T15:00:00'
+    },
+    {
+        id: 7,
+        title: 'Vídeo 7: O Amor Incondicional',
+        videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+        exhibitionDate: '2026-01-20T16:00:00'
+    },
+    {
+        id: 8,
+        title: 'Vídeo 8: Vida Eterna',
+        videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+        exhibitionDate: '2026-02-10T17:00:00'
+    },
+    {
+        id: 9,
+        title: 'Vídeo 9: Santidade no Cotidiano',
+        videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+        exhibitionDate: '2026-03-01T18:00:00'
+    },
+    {
+        id: 10,
+        title: 'Vídeo 10: O Perdão de Deus',
+        videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+        exhibitionDate: '2026-03-25T19:00:00'
+    },
+    {
+        id: 11,
+        title: 'Vídeo 11: O Reino dos Céus',
+        videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+        exhibitionDate: '2026-04-10T10:00:00'
+    },
+    {
+        id: 12,
+        title: 'Vídeo 12: A Jornada da Fé',
+        videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+        exhibitionDate: '2026-05-05T12:00:00'
+    },
+    {
+        id: 13,
+        title: 'Vídeo 13: O Poder da Oração',
+        videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+        exhibitionDate: '2026-05-20T13:00:00'
+    }
+]
