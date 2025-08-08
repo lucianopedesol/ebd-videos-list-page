@@ -1,323 +1,334 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coleção de Vídeos</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coleção de Vídeos</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f3f4f6;
-        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Cor de fundo para melhor contraste */
+        }
 
-        .main-container {
-            max-width: 80rem;
-            margin-left: auto;
-            margin-right: auto;
-            padding: 2rem;
-        }
+        .main-container {
+            max-width: 80rem; /* max-w-7xl */
+            margin-left: auto;
+            margin-right: auto;
+            padding: 2rem; /* p-8 */
+        }
 
-        .main-title {
-            font-size: 2.25rem;
-            font-weight: 700;
-            color: #1f2937;
-            margin-bottom: 2rem;
-            text-align: center;
-        }
-        
-        .video-grid {
-            display: grid;
-            gap: 1.5rem;
-            grid-template-columns: repeat(1, minmax(0, 1fr));
-        }
-        
-        @media (min-width: 768px) {
-            .video-grid {
-                grid-template-columns: repeat(2, minmax(0, 1fr));
-            }
-        }
-        
-        @media (min-width: 1024px) {
-            .video-grid {
-                grid-template-columns: repeat(3, minmax(0, 1fr));
-            }
-        }
+        .main-title {
+            font-size: 2.25rem; /* text-4xl */
+            font-weight: 700; /* font-bold */
+            color: #1f2937; /* text-gray-800 */
+            margin-bottom: 2rem; /* mb-8 */
+            text-align: center;
+        }
+        
+        .video-grid {
+            display: grid;
+            gap: 1.5rem; /* gap-6 */
+            grid-template-columns: repeat(1, minmax(0, 1fr)); /* sm:grid-cols-1 */
+        }
+        
+        @media (min-width: 768px) {
+            .video-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr)); /* md:grid-cols-2 */
+            }
+        }
+        
+        @media (min-width: 1024px) {
+            .video-grid {
+                grid-template-columns: repeat(3, minmax(0, 1fr)); /* lg:grid-cols-3 */
+            }
+        }
 
-        /* Estilos do card */
-        .video-card {
-            background-color: #fff;
-            border-radius: 0.75rem;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-            overflow: hidden;
-            padding: 1rem;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            transition: all 300ms ease;
-        }
+        /* Estilos do card */
+        .video-card {
+            background-color: #fff;
+            border-radius: 0.75rem; /* rounded-xl */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-md */
+            overflow: hidden;
+            padding: 1rem; /* p-4 */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            transition: all 300ms ease; /* transition-all duration-300 */
+        }
 
-        .video-card.available {
-            cursor: pointer;
-        }
+        .video-card.available {
+            cursor: pointer;
+        }
 
-        .video-card.available:hover {
-            transform: scale(1.05);
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-        }
-        
-        .video-card.disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
+        .video-card.available:hover {
+            transform: scale(1.05); /* hover:scale-105 */
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* hover:shadow-lg */
+        }
+        
+        .video-card.disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
 
-        .video-player,
-        .placeholder-image {
-            width: 100%;
-            aspect-ratio: 16 / 9;
-            border-radius: 0.5rem;
-            margin-bottom: 0.5rem;
-        }
+        .video-player,
+        .placeholder-image {
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            border-radius: 0.5rem; /* rounded-lg */
+            margin-bottom: 0.5rem; /* mb-2 */
+        }
 
-        .placeholder-image {
-            object-fit: cover;
-        }
+        .placeholder-image {
+            object-fit: cover;
+        }
 
-        .video-content {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            height: 100%;
-            justify-content: space-between;
-            width: 100%;
-        }
+        .video-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+            justify-content: space-between;
+            width: 100%;
+        }
 
-        .video-title {
-            font-size: 1.125rem;
-            font-weight: 600;
-            color: #1f2937;
-            margin-top: 0.5rem;
-            margin-bottom: 0.5rem;
-        }
+        .video-title {
+            font-size: 1.125rem; /* text-lg */
+            font-weight: 600; /* font-semibold */
+            color: #1f2937; /* text-gray-800 */
+            margin-top: 0.5rem; /* mt-2 */
+            margin-bottom: 0.5rem; /* mb-2 */
+        }
 
-        .youtube-button {
-            padding: 0.5rem 1rem;
-            background-color: #dc2626;
-            color: #fff;
-            font-weight: 600;
-            border-radius: 0.5rem;
-            transition: background-color 300ms ease;
-            margin-top: 0.5rem;
-            text-decoration: none;
-        }
+        .youtube-button {
+            padding: 0.5rem 1rem; /* px-4 py-2 */
+            background-color: #dc2626; /* bg-red-600 */
+            color: #fff;
+            font-weight: 600; /* font-semibold */
+            border-radius: 0.5rem; /* rounded-lg */
+            transition: background-color 300ms ease;
+            margin-top: 0.5rem; /* mt-2 */
+            text-decoration: none;
+        }
 
-        .youtube-button:hover {
-            background-color: #b91c1c;
-        }
+        .youtube-button:hover {
+            background-color: #b91c1c; /* hover:bg-red-700 */
+        }
 
-        /* Estilos da caixa de mensagem (modal) */
-        .message-box-container {
-            position: fixed;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            background-color: rgba(75, 85, 99, 0.5);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 1rem;
-            display: none;
-        }
+        /* Estilos da caixa de mensagem (modal) */
+        .message-box-container {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-color: rgba(75, 85, 99, 0.5); /* bg-gray-600 bg-opacity-50 */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem; /* p-4 */
+            display: none;
+        }
 
-        .message-box-content {
-            background-color: #fff;
-            padding: 1.5rem;
-            border-radius: 0.5rem;
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-            max-width: 24rem;
-            width: 100%;
-            text-align: center;
-        }
+        .message-box-content {
+            background-color: #fff;
+            padding: 1.5rem; /* p-6 */
+            border-radius: 0.5rem; /* rounded-lg */
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); /* shadow-xl */
+            max-width: 24rem; /* max-w-sm */
+            width: 100%;
+            text-align: center;
+        }
 
-        .message-text {
-            font-size: 1.125rem;
-            font-weight: 500;
-            color: #1f2937;
-            margin-bottom: 1rem;
-        }
-        
-        .message-button {
-            padding: 0.5rem 1rem;
-            background-color: #4f46e5;
-            color: #fff;
-            font-weight: 600;
-            border-radius: 0.5rem;
-            transition: background-color 300ms ease;
-        }
+        .message-text {
+            font-size: 1.125rem; /* text-lg */
+            font-weight: 500; /* font-medium */
+            color: #1f2937; /* text-gray-800 */
+            margin-bottom: 1rem; /* mb-4 */
+        }
+        
+        .message-button {
+            padding: 0.5rem 1rem; /* px-4 py-2 */
+            background-color: #4f46e5; /* bg-indigo-600 */
+            color: #fff;
+            font-weight: 600; /* font-semibold */
+            border-radius: 0.5rem; /* rounded-lg */
+            transition: background-color 300ms ease;
+        }
 
-        .message-button:hover {
-            background-color: #4338ca;
-        }
-
-        .controls-container {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-            margin-bottom: 2rem;
-            align-items: center;
-        }
-
-        .control-button {
-            padding: 0.5rem 1rem;
-            background-color: #6366f1;
-            color: #fff;
-            font-weight: 600;
-            border-radius: 0.5rem;
-            border: none;
-            cursor: pointer;
-            transition: background-color 300ms ease;
-        }
-
-        .control-button:hover {
-            background-color: #4f46e5;
-        }
-
-        .loading-message {
-            text-align: center;
-            font-size: 1.5rem;
-            color: #6b7280;
-            margin-top: 4rem;
-        }
-    </style>
+        .message-button:hover {
+            background-color: #4338ca; /* hover:bg-indigo-700 */
+        }
+    </style>
 </head>
 <body>
-    <div class="main-container">
-        <h1 class="main-title">Coleção de Vídeos</h1>
-        <div class="controls-container">
-            <span>Listagem:</span>
-            <button class="control-button" onclick="renderCards(mockApiData['licao-1-5'])">Lições 1-5</button>
-            <button class="control-button" onclick="renderCards(mockApiData['licao-6-13'])">Lições 6-13</button>
-        </div>
-        <div id="video-cards-container" class="video-grid">
-                    </div>
-    </div>
+    <div class="main-container">
+        <h1 class="main-title">Coleção de Vídeos</h1>
+        <div id="video-cards-container" class="video-grid">
+            <!-- Cards serão inseridos aqui pelo JavaScript -->
+        </div>
+    </div>
 
-    <div id="message-box" class="message-box-container">
-        <div class="message-box-content">
-            <p id="message-text" class="message-text"></p>
-            <button onclick="hideMessageBox()" class="message-button">Fechar</button>
-        </div>
-    </div>
+    <div id="message-box" class="message-box-container">
+        <div class="message-box-content">
+            <p id="message-text" class="message-text"></p>
+            <button onclick="hideMessageBox()" class="message-button">Fechar</button>
+        </div>
+    </div>
 
-    <script>
-        function showMessageBox(message) {
-            document.getElementById('message-text').textContent = message;
-            document.getElementById('message-box').style.display = 'flex';
-        }
+    <script>
+        function showMessageBox(message) {
+            document.getElementById('message-text').textContent = message;
+            document.getElementById('message-box').style.display = 'flex';
+        }
 
-        function hideMessageBox() {
-            document.getElementById('message-box').style.display = 'none';
-        }
-        
-        const mockApiData = {
-            'primarios-1trimestre2025': [
-                { id: 1, title: 'Vídeo 1: Mensagem do Evangelho', videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk', exhibitionDate: '2023-01-15T10:00:00' },
-                { id: 2, title: 'Vídeo 2: A Verdade de Deus', videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk', exhibitionDate: '2024-02-20T14:30:00' },
-                { id: 3, title: 'Vídeo 3: O Mistério da Fé (Em Breve)', videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk', exhibitionDate: '2025-03-31T20:00:00' },
-                { id: 4, title: 'Vídeo 4: Caminho Antigo (Em Breve)', videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk', exhibitionDate: '2025-04-15T11:00:00' },
-                { id: 5, title: 'Vídeo 5: Testemunho de Fé (Em Breve)', videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk', exhibitionDate: '2025-11-20T09:00:00' }
-            ],
-            'primarios-2trimestre2025': [
-                { id: 6, title: 'Vídeo 6: A Profecia Cumprida (Em Breve)', videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk', exhibitionDate: '2026-01-05T15:00:00' },
-                { id: 7, title: 'Vídeo 7: O Amor Incondicional (Em Breve)', videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk', exhibitionDate: '2026-01-20T16:00:00' },
-                { id: 8, title: 'Vídeo 8: Vida Eterna (Em Breve)', videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk', exhibitionDate: '2026-02-10T17:00:00' },
-                { id: 9, title: 'Vídeo 9: Santidade no Cotidiano (Em Breve)', videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk', exhibitionDate: '2026-03-01T18:00:00' },
-                { id: 10, title: 'Vídeo 10: O Perdão de Deus (Em Breve)', videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk', exhibitionDate: '2026-03-25T19:00:00' },
-                { id: 11, title: 'Vídeo 11: O Reino dos Céus (Em Breve)', videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk', exhibitionDate: '2026-04-10T10:00:00' },
-                { id: 12, title: 'Vídeo 12: A Jornada da Fé (Em Breve)', videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk', exhibitionDate: '2026-05-05T12:00:00' },
-                { id: 13, title: 'Vídeo 13: O Poder da Oração (Em Breve)', videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk', exhibitionDate: '2026-05-20T13:00:00' }
-            ]
-        };
-        
-        function renderCards(videos) {
-            const container = document.getElementById('video-cards-container');
-            container.innerHTML = '';
-            const today = new Date();
+        function hideMessageBox() {
+            document.getElementById('message-box').style.display = 'none';
+        }
 
-            videos.sort((a, b) => new Date(b.exhibitionDate) - new Date(a.exhibitionDate));
+        const videos = [
+            {
+                id: 1,
+                title: 'Vídeo 1: Mensagem do Evangelho',
+                videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+                exhibitionDate: '2023-01-15T10:00:00'
+            },
+            {
+                id: 2,
+                title: 'Vídeo 2: A Verdade de Deus',
+                videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+                exhibitionDate: '2024-02-20T14:30:00'
+            },
+            {
+                id: 3,
+                title: 'Vídeo 3: O Mistério da Fé',
+                videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+                exhibitionDate: '2025-03-31T20:00:00'
+            },
+            {
+                id: 4,
+                title: 'Vídeo 4: Caminho Antigo',
+                videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+                exhibitionDate: '2025-04-15T11:00:00'
+            },
+            {
+                id: 5,
+                title: 'Vídeo 5: Testemunho de Fé',
+                videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+                exhibitionDate: '2025-11-20T09:00:00'
+            },
+            {
+                id: 6,
+                title: 'Vídeo 6: A Profecia Cumprida',
+                videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+                exhibitionDate: '2026-01-05T15:00:00'
+            },
+            {
+                id: 7,
+                title: 'Vídeo 7: O Amor Incondicional',
+                videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+                exhibitionDate: '2026-01-20T16:00:00'
+            },
+            {
+                id: 8,
+                title: 'Vídeo 8: Vida Eterna',
+                videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+                exhibitionDate: '2026-02-10T17:00:00'
+            },
+            {
+                id: 9,
+                title: 'Vídeo 9: Santidade no Cotidiano',
+                videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+                exhibitionDate: '2026-03-01T18:00:00'
+            },
+            {
+                id: 10,
+                title: 'Vídeo 10: O Perdão de Deus',
+                videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+                exhibitionDate: '2026-03-25T19:00:00'
+            },
+            {
+                id: 11,
+                title: 'Vídeo 11: O Reino dos Céus',
+                videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+                exhibitionDate: '2026-04-10T10:00:00'
+            },
+            {
+                id: 12,
+                title: 'Vídeo 12: A Jornada da Fé',
+                videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+                exhibitionDate: '2026-05-05T12:00:00'
+            },
+            {
+                id: 13,
+                title: 'Vídeo 13: O Poder da Oração',
+                videoUrl: 'https://www.youtube.com/embed/bYVdZIiaUSk',
+                exhibitionDate: '2026-05-20T13:00:00'
+            }
+        ];
 
-            videos.forEach(video => {
-                const card = document.createElement('div');
-                const videoDate = new Date(video.exhibitionDate);
+        function renderCards() {
+            const container = document.getElementById('video-cards-container');
+            const today = new Date();
 
-                if (videoDate <= today) {
-                    card.classList.add('video-card', 'available');
+            videos.sort((a, b) => new Date(b.exhibitionDate) - new Date(a.exhibitionDate));
 
-                    const videoIframe = document.createElement('iframe');
-                    videoIframe.src = video.videoUrl;
-                    videoIframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-                    videoIframe.setAttribute('allowfullscreen', '');
-                    videoIframe.classList.add('video-player');
-                    card.appendChild(videoIframe);
+            videos.forEach(video => {
+                const card = document.createElement('div');
+                const videoDate = new Date(video.exhibitionDate);
 
-                    const contentContainer = document.createElement('div');
-                    contentContainer.classList.add('video-content');
+                if (videoDate <= today) {
+                    card.classList.add('video-card', 'available');
 
-                    const title = document.createElement('h2');
-                    title.textContent = video.title;
-                    title.classList.add('video-title');
-                    contentContainer.appendChild(title);
-                    
-                    const youtubeButton = document.createElement('a');
-                    youtubeButton.textContent = 'Ir para o YouTube';
-                    youtubeButton.href = `https://www.youtube.com/watch?v=bYVdZIiaUSk`;
-                    youtubeButton.target = '_blank';
-                    youtubeButton.classList.add('youtube-button');
-                    contentContainer.appendChild(youtubeButton);
+                    const videoIframe = document.createElement('iframe');
+                    videoIframe.src = video.videoUrl;
+                    videoIframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+                    videoIframe.setAttribute('allowfullscreen', '');
+                    videoIframe.classList.add('video-player');
+                    card.appendChild(videoIframe);
 
-                    card.appendChild(contentContainer);
+                    const contentContainer = document.createElement('div');
+                    contentContainer.classList.add('video-content');
 
-                    card.addEventListener('click', () => {
-                        showMessageBox(`Você clicou no vídeo: "${video.title}"`);
-                    });
-                } else {
-                    card.classList.add('video-card', 'disabled');
+                    const title = document.createElement('h2');
+                    title.textContent = video.title;
+                    title.classList.add('video-title');
+                    contentContainer.appendChild(title);
+                    
+                    const youtubeButton = document.createElement('a');
+                    youtubeButton.textContent = 'Ir para o YouTube';
+                    youtubeButton.href = `https://www.youtube.com/watch?v=bYVdZIiaUSk`;
+                    youtubeButton.target = '_blank';
+                    youtubeButton.classList.add('youtube-button');
+                    contentContainer.appendChild(youtubeButton);
 
-                    const placeholderImage = document.createElement('img');
-                    placeholderImage.src = 'https://placehold.co/600x400/1e293b/e2e8f0?text=Em+Breve';
-                    placeholderImage.alt = `Vídeo "${video.title}" disponível em breve`;
-                    placeholderImage.classList.add('placeholder-image');
-                    card.appendChild(placeholderImage);
+                    card.appendChild(contentContainer);
 
-                    const title = document.createElement('h2');
-                    title.textContent = video.title;
-                    title.classList.add('video-title');
-                    card.appendChild(title);
-                }
+                    card.addEventListener('click', () => {
+                        showMessageBox(`Você clicou no vídeo: "${video.title}"`);
+                    });
+                } else {
+                    card.classList.add('video-card', 'disabled');
 
-                container.appendChild(card);
-            });
-        }
-        
-        // Função principal para carregar a página com base no URL
-        function initializePage() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const listId = urlParams.get('listId');
-            
-            const container = document.getElementById('video-cards-container');
-            if (listId && mockApiData[listId]) {
-                renderCards(mockApiData[listId]);
-            } else {
-                // Comportamento padrão se o parâmetro não for encontrado
-                container.innerHTML = `<p class="loading-message">Selecione uma listagem para exibir os vídeos.</p>`;
-            }
-        }
+                    const placeholderImage = document.createElement('img');
+                    placeholderImage.src = 'https://placehold.co/600x400/1e293b/e2e8f0?text=Em+Breve';
+                    placeholderImage.alt = `Vídeo "${video.title}" disponível em breve`;
+                    placeholderImage.classList.add('placeholder-image');
+                    card.appendChild(placeholderImage);
 
-        // Chama a função para iniciar a página quando o documento estiver pronto
-        window.addEventListener('DOMContentLoaded', initializePage);
-    </script>
+                    const title = document.createElement('h2');
+                    title.textContent = video.title;
+                    title.classList.add('video-title');
+                    card.appendChild(title);
+                }
+
+                container.appendChild(card);
+            });
+        }
+        
+        window.onload = renderCards;
+    </script>
 </body>
 </html>
