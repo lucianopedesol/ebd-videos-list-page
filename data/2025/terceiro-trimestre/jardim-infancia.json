@@ -1,3 +1,82 @@
 {
-  "data": []
+    "data": [
+        {
+            "id": 1,
+            "title": "EBD Lição 1 | ISAQUE É UM BOM AMIGO",
+            "videoUrl": "https://www.youtube.com/embed/seggCeZ4KmA",
+            "exhibitionDate": "2025-06-29T10:15:00"
+        },
+        {
+            "id": 2,
+            "title": "EBD Lição 2 | TRAZENDO PRESENTES PARA O PAPAI DO CÉU",
+            "videoUrl": "https://www.youtube.com/embed/7wKOAoAJOKw",
+            "exhibitionDate": "2025-07-06T10:15:00"
+        },
+        {
+            "id": 3,
+            "title": "EBD Lição 3 | JOSAFÁ ESCOLHEU SER FIEL",
+            "videoUrl": "https://www.youtube.com/embed/xy7cpz67TK4",
+            "exhibitionDate": "2025-07-13T10:15:00"
+        },
+        {
+            "id": 4,
+            "title": "EBD Lição 4 | O AMIGO QUE ESCOLHEU FAZER O CERTO",
+            "videoUrl": "https://www.youtube.com/embed/T6cFlGk_vgw",
+            "exhibitionDate": "2025-07-20T10:15:00"
+        },
+        {
+            "id": 5,
+            "title": "EBD Lição 5 | O AMIGO QUE DEMOROU A OBEDECER",
+            "videoUrl": "https://www.youtube.com/embed/aOVg9sZG7-4",
+            "exhibitionDate": "2025-07-27T10:15:00"
+        },
+        {
+            "id": 6,
+            "title": "EBD Lição 6 | A AMIGA QUE EVITOU UMA BRIGA",
+            "videoUrl": "https://www.youtube.com/embed/lPVT3tQuJUA",
+            "exhibitionDate": "2025-08-03T10:15:00"
+        },
+        {
+            "id": 7,
+            "title": "EBD Lição 7 | A AMIGA QUE ESCOLHEU OUVIR JESUS",
+            "videoUrl": "https://www.youtube.com/embed/h4uqOFr5-NE",
+            "exhibitionDate": "2025-08-10T10:15:00"
+        },
+        {
+            "id": 8,
+            "title": "EBD Lição 8 | AS MOÇAS QUE ESCOLHERAM ESTAR PREPARADAS",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-08-17T10:15:00"
+        },
+        {
+            "id": 9,
+            "title": "EBD Lição 9 | O AMIGO QUE ESCOLHEU VOLTAR PARA A CASA DO PAI",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-08-24T10:15:00"
+        },
+        {
+            "id": 10,
+            "title": "EBD Lição 10 | UM EXEMPLO A NÃO SER SEGUIDO",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-08-31T10:15:00"
+        },
+        {
+            "id": 11,
+            "title": "EBD Lição 11 | O AMIGO QUE SE TORNOU UM MISSIONÁRIO",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-09-07T10:15:00"
+        },
+        {
+            "id": 12,
+            "title": "EBD Lição 12 | O AMIGO QUE SE TORNOU UM PREGADOR",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-09-14T10:15:00"
+        },
+        {
+            "id": 13,
+            "title": "EBD Lição 13 | O AMIGO QUE ESCOLHEU CONSTRUIR SOBRE A ROCHA",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-09-21T10:15:00"
+        }
+    ]
 }

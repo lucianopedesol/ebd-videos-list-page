@@ -191,7 +191,7 @@
         async function loadVideos() {
             const container = document.getElementById('video-cards-container');
             // URL da API com o parâmetro de listagem
-            const apiUrl = `https://lucianopedesol.github.io/ebd-videos-list-page/data/2025/terceiro-trimestre/jovens.json`;
+            const apiUrl = `https://lucianopedesol.github.io/ebd-videos-list-page/data/2025/terceiro-trimestre/pre-adolescentes.json`;
 
             fetch(apiUrl)
            .then(response => response.json())
@@ -240,10 +240,7 @@
                     contentContainer.appendChild(youtubeButton);
 
                     card.appendChild(contentContainer);
-
-                    card.addEventListener('click', () => {
-                        showMessageBox(`Você clicou no vídeo: "${video.title}"`);
-                    });
+ 
                 } else {
                     card.classList.add('video-card', 'disabled');
 
