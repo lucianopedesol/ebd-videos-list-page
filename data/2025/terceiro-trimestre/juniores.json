@@ -1,3 +1,82 @@
 {
-  "data": []
+    "data": [
+        {
+            "id": 1,
+            "title": "EBD Lição 1 - Juniores | A LIÇÃO SOBRE O REINO DE DEUS (9 e 10 anos) 3ºTrimestre 2025",
+            "videoUrl": "https://www.youtube.com/embed/KoUHZzAyOsM",
+            "exhibitionDate": "2025-06-29T09:00:00"
+        },
+        {
+            "id": 2,
+            "title": "EBD Lição 2 - Juniores | A LIÇÃO SOBRE A ORAÇÃO (9 e 10 anos) 3ºTrimestre 2025",
+            "videoUrl": "https://www.youtube.com/embed/qfPLOtJF9uQ",
+            "exhibitionDate": "2025-07-06T09:00:00"
+        },
+        {
+            "id": 3,
+            "title": "EBD Lição 3 - Juniores | A LIÇÃO DAS DUAS CASAS (9 e 10 anos) 3ºTrimestre 2025",
+            "videoUrl": "https://www.youtube.com/embed/LYg_eaO9k6U",
+            "exhibitionDate": "2025-07-13T09:00:00"
+        },
+        {
+            "id": 4,
+            "title": "EBD Lição 4 - Juniores | A LIÇÃO DA TEMPESTADE (9 e 10 anos) 3ºTrimestre 2025",
+            "videoUrl": "https://www.youtube.com/embed/iwyYiz7Fh8s",
+            "exhibitionDate": "2025-07-20T09:00:00"
+        },
+        {
+            "id": 5,
+            "title": "EBD Lição 5 - Juniores | A LIÇÃO DA ÁRVORE E OS SEUS FRUTOS (9 e 10 anos) 3ºTrimestre 2025",
+            "videoUrl": "https://www.youtube.com/embed/4gt8XjWYdDA",
+            "exhibitionDate": "2025-07-27T09:00:00"
+        },
+        {
+            "id": 6,
+            "title": "EBD Lição 6 - Juniores | A LIÇÃO DO SEMEADOR (9 e 10 anos) 3ºTrimestre 2025",
+            "videoUrl": "https://www.youtube.com/embed/304oQFshFDA",
+            "exhibitionDate": "2025-08-03T09:00:00"
+        },
+        {
+            "id": 7,
+            "title": "EBD Lição 7 - Juniores | A LIÇÃO DO PERDÃO (9 e 10 anos) 3ºTrimestre 2025",
+            "videoUrl": "https://www.youtube.com/embed/OFjlT8ByL58",
+            "exhibitionDate": "2025-08-10T09:00:00"
+        },
+        {
+            "id": 8,
+            "title": "EBD Lição 8 - Juniores | A LIÇÃO DA OVELHA PERDIDA (9 e 10 anos) 3ºTrimestre 2025",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-08-17T09:00:00"
+        },
+        {
+            "id": 9,
+            "title": "EBD Lição 9 - Juniores | A LIÇÃO DO FILHO ARREPENDIDO (9 e 10 anos) 3ºTrimestre 2025",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-08-24T09:00:00"
+        },
+        {
+            "id": 10,
+            "title": "EBD Lição 10 - Juniores | A LIÇÃO DO JOVEM RICO (9 e 10 anos) 3ºTrimestre 2025",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-08-31T09:00:00"
+        },
+        {
+            "id": 11,
+            "title": "EBD Lição 11 - Juniores | A LIÇÃO DOS SERVOS MAUS (9 e 10 anos) 3ºTrimestre 2025",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-09-07T09:00:00"
+        },
+        {
+            "id": 12,
+            "title": "EBD Lição 12 - Juniores | A LIÇÃO DOS TALENTOS (9 e 10 anos) 3ºTrimestre 2025",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-09-14T09:00:00"
+        },
+        {
+            "id": 13,
+            "title": "EBD Lição 13 - Juniores | A LIÇÃO DO AMOR NA CRUZ (9 e 10 anos) 3ºTrimestre 2025",
+            "videoUrl": "https://www.youtube.com/embed/",
+            "exhibitionDate": "2025-09-21T09:00:00"
+        }
+    ]
 }
