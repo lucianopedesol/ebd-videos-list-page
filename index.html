@@ -191,7 +191,8 @@
         async function loadVideos() {
             const container = document.getElementById('video-cards-container');
             // URL da API com o parâmetro de listagem
-            const apiUrl = `https://lucianopedesol.github.io/ebd-videos-list-page/data/2025/terceiro-trimestre/jardim-infancia.json`;
+            const urlKey = 'adolescentes';
+            const apiUrl = `https://lucianopedesol.github.io/ebd-videos-list-page/data/2025/terceiro-trimestre/${urlKey}.json`;
 
             fetch(apiUrl)
            .then(response => response.json())
