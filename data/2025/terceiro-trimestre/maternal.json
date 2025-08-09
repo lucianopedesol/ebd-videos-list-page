@@ -1,3 +1,82 @@
 {
-  "data": []
+    "data": [
+        {
+            "id": 1,
+            "title": "EBD Lição 1 | O MOÇO QUE PASSOU A ANDAR",
+            "videoUrl": "6JraQM29et8",
+            "exhibitionDate": "2025-06-29T10:45:00"
+        },
+        {
+            "id": 2,
+            "title": "EBD Lição 2 | ANANIAS E SAFIRAM MENTEM PARA DEUS",
+            "videoUrl": "0ivnd3BTjqs",
+            "exhibitionDate": "2025-07-06T10:45:00"
+        },
+        {
+            "id": 3,
+            "title": "EBD Lição 3 | MILAGRES E MARAVILHAS",
+            "videoUrl": "1pxNoFhx1a8",
+            "exhibitionDate": "2025-07-13T10:45:00"
+        },
+        {
+            "id": 4,
+            "title": "EBD Lição 4 | SETE AJUDANTES",
+            "videoUrl": "Qr-Wryhm7SM",
+            "exhibitionDate": "2025-07-20T10:45:00"
+        },
+        {
+            "id": 5,
+            "title": "EBD Lição 5 | FILIPE E O MOÇO DA CARRUAGEM",
+            "videoUrl": "WXatDTk9r7I",
+            "exhibitionDate": "2025-07-27T10:45:00"
+        },
+        {
+            "id": 6,
+            "title": "EBD Lição 6 | UM HOMEM TRANSFORMADO",
+            "videoUrl": "XZclB46rGD0",
+            "exhibitionDate": "2025-08-03T10:45:00"
+        },
+        {
+            "id": 7,
+            "title": "EBD Lição 7 | PEDRO NA CIDADE DE LIDA",
+            "videoUrl": "CUHneHTPuuk",
+            "exhibitionDate": "2025-08-10T10:45:00"
+        },
+        {
+            "id": 8,
+            "title": "EBD Lição 8 | A HISTÓRIA DE DORCAS",
+            "videoUrl": "",
+            "exhibitionDate": "2025-08-17T10:45:00"
+        },
+        {
+            "id": 9,
+            "title": "EBD Lição 9 | A HISTÓRIA DE CORNÉLIO",
+            "videoUrl": "",
+            "exhibitionDate": "2025-08-24T10:45:00"
+        },
+        {
+            "id": 10,
+            "title": "EBD Lição 10 | PEDRO É LIVRE DA PRISÃO",
+            "videoUrl": "",
+            "exhibitionDate": "2025-08-31T10:45:00"
+        },
+        {
+            "id": 11,
+            "title": "EBD Lição 11 | OS MISSIONÁRIOS PAULO E BARNABÉ",
+            "videoUrl": "",
+            "exhibitionDate": "2025-09-07T10:45:00"
+        },
+        {
+            "id": 12,
+            "title": "EBD Lição 12 | TERREMOTO NA PRISÃO",
+            "videoUrl": "",
+            "exhibitionDate": "2025-09-14T10:45:00"
+        },
+        {
+            "id": 13,
+            "title": "EBD Lição 13 | PAULO ENFRENTA UMA TEMPESTADE",
+            "videoUrl": "",
+            "exhibitionDate": "2025-09-21T10:45:00"
+        }
+    ]
 }

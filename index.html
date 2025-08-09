@@ -191,7 +191,7 @@
         async function loadVideos() {
             const container = document.getElementById('video-cards-container');
             // URL da API com o parâmetro de listagem
-            const apiUrl = `https://lucianopedesol.github.io/ebd-videos-list-page/data/2025/terceiro-trimestre/pre-adolescentes.json`;
+            const apiUrl = `https://lucianopedesol.github.io/ebd-videos-list-page/data/2025/terceiro-trimestre/jardim-infancia.json`;
 
             fetch(apiUrl)
            .then(response => response.json())
@@ -218,7 +218,7 @@
                     card.classList.add('video-card', 'available');
 
                     const videoIframe = document.createElement('iframe');
-                    videoIframe.src = video.videoUrl;
+                    videoIframe.src =  `https://www.youtube.com/embed/${video.videoUrl}`;
                     videoIframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
                     videoIframe.setAttribute('allowfullscreen', '');
                     videoIframe.classList.add('video-player');
@@ -234,7 +234,7 @@
                     
                     const youtubeButton = document.createElement('a');
                     youtubeButton.textContent = 'Ir para o YouTube';
-                    youtubeButton.href = `https://www.youtube.com/watch?v=bYVdZIiaUSk`;
+                    youtubeButton.href = `https://www.youtube.com/watch?v=${video.videoUrl}`;
                     youtubeButton.target = '_blank';
                     youtubeButton.classList.add('youtube-button');
                     contentContainer.appendChild(youtubeButton);
