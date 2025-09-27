@@ -1,0 +1,82 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "EBD Lição 1 | O AMOR DE DEUS NA BÍBLIA",
+            "videoUrl": "",
+            "exhibitionDate": "2025-09-28T10:00:00"
+        },
+        {
+            "id": 2,
+            "title": "EBD Lição 02 | O AMOR QUE SALVA",
+            "videoUrl": "",
+            "exhibitionDate": "2025-10-05T10:00:00"
+        },
+        {
+            "id": 3,
+            "title": "EBD Lição 3 | CRISTO NOS ENSINOU A COMPAIXÃO",
+            "videoUrl": "",
+            "exhibitionDate": "2025-10-12T10:00:00"
+        },
+        {
+            "id": 4,
+            "title": "EBD Lição 4 | CRISTO NOS ENSINOU A MISERICÓRDIA",
+            "videoUrl": "",
+            "exhibitionDate": "2025-10-19T10:00:00"
+        },
+        {
+            "id": 5,
+            "title": "EBD Lição 5 | CRISTO NOS ENSINOU O PERDÃO",
+            "videoUrl": "",
+            "exhibitionDate": "2025-10-26T10:00:00"
+        },
+        {
+            "id": 6,
+            "title": "EBD Lição 6 | O AMOR DOS PRIMEIROS CRISTÃOS NA IGREJA",
+            "videoUrl": "",
+            "exhibitionDate": "2025-11-02T10:00:00"
+        },
+        {
+            "id": 7,
+            "title": "EBD Lição 7 | O AMOR É DOADOR",
+            "videoUrl": "",
+            "exhibitionDate": "2025-11-09T10:00:00"
+        },
+        {
+            "id": 8,
+            "title": "EBD Lição 8 | O AMOR PELAS ALMAS",
+            "videoUrl": "",
+            "exhibitionDate": "2025-11-16T10:00:00"
+        },
+        {
+            "id": 9,
+            "title": "EBD Lição 9 | O AMOR PELA FAMÍLIA",
+            "videoUrl": "",
+            "exhibitionDate": "2025-11-23T10:00:00"
+        },
+        {
+            "id": 10,
+            "title": "EBD Lição 10 | O AMOR PELOS AMIGOS",
+            "videoUrl": "",
+            "exhibitionDate": "2025-11-30T10:00:00"
+        },
+        {
+            "id": 11,
+            "title": "EBD Lição 11 | O AMOR PELAS PALAVRAS",
+            "videoUrl": "",
+            "exhibitionDate": "2025-12-07T10:00:00"
+        },
+        {
+            "id": 12,
+            "title": "EBD Lição 12 | O AMOR QUE VENCE O MAL",
+            "videoUrl": "",
+            "exhibitionDate": "2025-12-14T10:00:00"
+        },
+        {
+            "id": 13,
+            "title": "EBD Lição 13 | O AMOR É ETERNO",
+            "videoUrl": "",
+            "exhibitionDate": "2025-12-21T10:00:00"
+        }
+    ]
+}

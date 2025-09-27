@@ -1,0 +1,82 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "EBD Lição 1 | PAULO, O APÓSTOLO DE JESUS",
+            "videoUrl": "",
+            "exhibitionDate": "2025-09-28T10:00:00"
+        },
+        {
+            "id": 2,
+            "title": "EBD Lição 2 | O ENSINO SOBRE A SALVAÇÃO",
+            "videoUrl": "",
+            "exhibitionDate": "2025-10-05T10:00:00"
+        },
+        {
+            "id": 3,
+            "title": "EBD Lição 3 | OS DONS DA IGREJA",
+            "videoUrl": "",
+            "exhibitionDate": "2025-10-12T10:00:00"
+        },
+        {
+            "id": 4,
+            "title": "EBD Lição 4 | A OFERTA VERDADEIRA",
+            "videoUrl": "",
+            "exhibitionDate": "2025-10-19T10:00:00"
+        },
+        {
+            "id": 5,
+            "title": "EBD Lição 5 | O BOM FRUTO",
+            "videoUrl": "",
+            "exhibitionDate": "2025-10-26T10:00:00"
+        },
+        {
+            "id": 6,
+            "title": "EBD Lição 6 | A ARMADURA DE DEUS",
+            "videoUrl": "",
+            "exhibitionDate": "2025-11-02T10:00:00"
+        },
+        {
+            "id": 7,
+            "title": "EBD Lição 7 | A HUMILDADE DE JESUS",
+            "videoUrl": "",
+            "exhibitionDate": "2025-11-09T10:00:00"
+        },
+        {
+            "id": 8,
+            "title": "EBD Lição 8 | JESUS E OS FALSOS ENSINAMENTOS",
+            "videoUrl": "",
+            "exhibitionDate": "2025-11-16T10:00:00"
+        },
+        {
+            "id": 9,
+            "title": "EBD Lição 9 | A VOLTA DE JESUS",
+            "videoUrl": "",
+            "exhibitionDate": "2025-11-23T10:00:00"
+        },
+        {
+            "id": 10,
+            "title": "EBD Lição 10 | O SURGIMENTO DE UM HOMEM MAU",
+            "videoUrl": "",
+            "exhibitionDate": "2025-11-30T10:00:00"
+        },
+        {
+            "id": 11,
+            "title": "EBD Lição 11 | TIMÓTEO, UM DISCÍPULO OBEDIENTE",
+            "videoUrl": "",
+            "exhibitionDate": "2025-12-07T10:00:00"
+        },
+        {
+            "id": 12,
+            "title": "EBD Lição 12 | A BÍBLIA É A PALAVRA DE DEUS",
+            "videoUrl": "",
+            "exhibitionDate": "2025-12-14T10:00:00"
+        },
+        {
+            "id": 13,
+            "title": "EBD Lição 13 | TITO, UM DISCÍPULO DE BOAS OBRAS",
+            "videoUrl": "",
+            "exhibitionDate": "2025-12-21T10:00:00"
+        }
+    ]
+}

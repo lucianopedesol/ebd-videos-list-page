@@ -1,0 +1,82 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "EBD Lição 1 | O LIVRO DE DEUS É ESPECIAL",
+            "videoUrl": "",
+            "exhibitionDate": "2025-09-28T10:15:00"
+        },
+        {
+            "id": 2,
+            "title": "EBD Lição 2 | O LIVRO DE DEUS NOS FALA DE JESUS",
+            "videoUrl": "",
+            "exhibitionDate": "2025-10-05T10:15:00"
+        },
+        {
+            "id": 3,
+            "title": "EBD Lição 3 | O LIVRO DE DEUS LIBERTA",
+            "videoUrl": "",
+            "exhibitionDate": "2025-10-12T10:15:00"
+        },
+        {
+            "id": 4,
+            "title": "EBD Lição 4 | O LIVRO DE DEUS NOS DÁ SABEDORIA",
+            "videoUrl": "",
+            "exhibitionDate": "2025-10-19T10:15:00"
+        },
+        {
+            "id": 5,
+            "title": "EBD Lição 5 | O LIVRO DE DEUS NOS ENSINA O SEU AMOR",
+            "videoUrl": "",
+            "exhibitionDate": "2025-10-26T10:15:00"
+        },
+        {
+            "id": 6,
+            "title": "EBD Lição 6 | O LIVRO DE DEUS NOS ENSINA A PERDOAR",
+            "videoUrl": "",
+            "exhibitionDate": "2025-11-02T10:15:00"
+        },
+        {
+            "id": 7,
+            "title": "EBD Lição 7 | O LIVRO DE DEUS NOS ENSINA A LOUVAR",
+            "videoUrl": "",
+            "exhibitionDate": "2025-11-09T10:15:00"
+        },
+        {
+            "id": 8,
+            "title": "EBD Lição 8 | O LIVRO DE DEUS NOS LEVA PARA O CÉU",
+            "videoUrl": "",
+            "exhibitionDate": "2025-11-16T10:15:00"
+        },
+        {
+            "id": 9,
+            "title": "EBD Lição 9 | O LIVRO DE DEUS NOS ENSINA A ORAR",
+            "videoUrl": "",
+            "exhibitionDate": "2025-11-23T10:15:00"
+        },
+        {
+            "id": 10,
+            "title": "EBD Lição 10 | O LIVRO DE DEUS NOS ENSINA A CONFIAR",
+            "videoUrl": "",
+            "exhibitionDate": "2025-11-30T10:15:00"
+        },
+        {
+            "id": 11,
+            "title": "EBD Lição 11 | O LIVRO DE DEUS NOS ENSINA A OBEDECER",
+            "videoUrl": "",
+            "exhibitionDate": "2025-12-07T10:15:00"
+        },
+        {
+            "id": 12,
+            "title": "EBD Lição 12 | O LIVRO DE DEUS NOS ENSINA A AGRADECER",
+            "videoUrl": "",
+            "exhibitionDate": "2025-12-14T10:15:00"
+        },
+        {
+            "id": 13,
+            "title": "EBD Lição 13 | O LIVRO DE DEUS NOS ENSINA A OFERTAR",
+            "videoUrl": "",
+            "exhibitionDate": "2025-12-21T10:15:00"
+        }
+    ]
+}
